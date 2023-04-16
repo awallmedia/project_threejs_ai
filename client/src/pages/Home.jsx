@@ -19,7 +19,7 @@ const Home = () => {
             {snap.intro && (
                 <motion.section className='home' {...slideAnimation('left')}>
                     <motion.header {...slideAnimation('down')}>
-                        <img src='./sanguinex_logo.png' alt='logo' className='w-32 h-32 object-contain'/>
+                        <img src='./sanguinex.png' alt='logo' className='w-32 h-32 object-contain'/>
                     </motion.header>
 
                     <motion.div className='home-content' {...headContainerAnimation}>
