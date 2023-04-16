@@ -31,6 +31,13 @@ html {
   @apply xl:text-[6rem] text-[6rem] xl:leading-[6rem] leading-[7rem] font-black text-black;
 }
 
+@media(max-width: 600px){
+
+  .head-text{
+    @apply sm:text-[2rem] text-[2rem] sm:leading-[2rem] leading-[2rem] font-black text-black;
+  }
+}
+
 .download-btn {
   @apply w-14 h-14 flex justify-center items-center rounded-full glassmorphism cursor-pointer outline-none;
 }
